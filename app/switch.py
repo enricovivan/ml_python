@@ -1,5 +1,5 @@
 
-from .bagged_decidion_tree import BaggedDecisionTree
+from .bagged_decision_tree import BaggedDecisionTree
 
 class Switch:
 
