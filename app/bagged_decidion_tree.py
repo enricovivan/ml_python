@@ -5,4 +5,5 @@ import sklearn.ensemble as sk
 class BaggedDecisionTree:
 
     def __init__(self) -> None:
-        pass
+        
+        print('Bagged Decision Tree')

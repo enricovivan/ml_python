@@ -1,4 +1,6 @@
 
+from .bagged_decidion_tree import BaggedDecisionTree
+
 class Switch:
 
     def __init__(self) -> None:
@@ -21,4 +23,4 @@ class Switch:
                     self.running = False
                     print('Saindo...')
                 case 1:
-                    print('Bagged Decision Tree')
+                    BaggedDecisionTree()
