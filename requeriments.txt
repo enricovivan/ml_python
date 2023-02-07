@@ -1,0 +1,4 @@
+pandas==1.5.3
+scikit-learn==1.2.1
+dataprep==0.4.5
+seaborn==0.12.2
