@@ -1,5 +1,5 @@
 from app.data_base import ShowDatabase
-from app.bagged_decision_tree import BaggedDecisionTree
+from app.random_forest import RandomForest
 
 class Switch:
 
@@ -10,7 +10,7 @@ class Switch:
         while self.running:
             print(f'\n------------- Algoritmos -------------')
 
-            print('1 - Bagged Decision Tree..............')
+            print('1 - Random Forest..............')
             print('2 - Show Datas')
             print('0 - Exit Program......................')
 
@@ -24,7 +24,7 @@ class Switch:
                     self.running = False
                     print('Saindo...')
                 case 1:
-                    BaggedDecisionTree()
+                    RandomForest()
                 case 2:
                     ShowDatabase()
             
